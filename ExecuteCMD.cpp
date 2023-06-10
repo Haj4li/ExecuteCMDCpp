@@ -14,7 +14,7 @@ void Dispose();
 string executeCommand(string command);
 
 int main() {
-    InitilizePipes();
+    InitilizePipes(); // handles and pipes must be initilized once
 
     string command = "dir";
     string result = executeCommand(command);
