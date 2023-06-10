@@ -20,7 +20,7 @@ int main() {
     string result = executeCommand(command);
     cout << result << endl;
 
-    Dispose();
+    Dispose(); // keep in mind to close process and handles before the program terminates
     return 0;
 }
 
